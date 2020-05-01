@@ -1,8 +1,13 @@
 .background-image{
-  background-image: url();
-
+  background-image: url(lego-image-3.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .short{
   height: 75px
+}
+
+.no-border{
+  border: none;
 }
