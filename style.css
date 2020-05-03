@@ -1,13 +1,23 @@
 .background-image{
-  background-image: url(lego-image-3.jpg);
+  background-image: url(lego-image-6.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .short{
   height: 75px
 }
+.tall{
+  height: 400px;
+}
 
 .no-border{
   border: none;
+}
+
+
+@media only screen and (max-width: 600px){
+  .mobile-hide{
+    display:none
+  }
 }
