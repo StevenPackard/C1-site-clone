@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LEGO</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/870e3c44f7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -38,8 +39,8 @@
 
   <main class="container-fluid">
     <!-- Your Ideas W/ Background Image -->
-    <div id="idea" class="row d-flex justify-content-center background-image bg-dark text-light">
-      <div class="col-12 col-md-2 pt-3">
+    <div id="idea" class="row d-flex justify-content-end background-image text-light text-shadow">
+      <div class="col-12 col-md-2 pt-3 my-2">
         <h5>Submit Your Ideas!</h5>
         <form>
           <div class="form-group">
@@ -61,34 +62,34 @@
           </div>
         </form>
       </div>
-      <div class="col-8 pl-5 pt-5 mobile-hide">
+      <div class="col-8 pl-5 pt-5 mobile-hide text-shadow">
         <h4>TEXT SHOULD GO HERE</h4>
         <p>This is some other example text about how awesome LEGO is and what your idea is.</p>
       </div>
     </div>
     <!-- Make It Creative -->
-    <div id="creative" class="row bg-warning text-dark">
-      <div class="col-12 col-md-6">
+    <div id="creative" class="row d-flex justify-content-around align-items-center bg-warning text-dark p-5">
+      <div class="col-12 col-md-4 order-md-2 mb-5">
+        <div class="card bg-secondary text-light text-shadow" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Creativity</h5>
+            <h6 class="card-subtitle mb-2 text-muted"></h6>
+            <p class="card-text">Express yourself with LEGO. Submit an idea to bring your creativity to life!</p>
+            <a href="#" class="card-link text-light border">Submit Idea</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 text-left order-md-1">
         <h4>CREATIVE IDEAS TEXT</h4>
         <h4>MORE IMPORTANT CREATIVITY</h4>
         <p>Here is some cool text about how awesome your ideas are and how smart you are. You are super attractive and
           have a great imagination and can do anything you put your mind to!</p>
       </div>
-      <div class="col-12 col-md-6 text-dark">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Creativity</h5>
-            <h6 class="card-subtitle mb-2 text-muted"></h6>
-            <p class="card-text">Express yourself with LEGO. Submit an idea to bring your creativity to life!</p>
-            <a href="#" class="card-link">Submit Idea</a>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- Make It Inspired -->
-    <div id="inspired" class="row bg-light">
-      <div class="col-12 col-md-4">
-        <img src="//placehold.it/300x300" alt="">
+    <div id="inspired" class="row bg-white p-4">
+      <div class="col-12 col-md-4 p-4">
+        <img class="picture-normal" src="lego-bigben.jpg" alt="">
       </div>
       <div class="col-12 col-md-8">
         <h1><i class="fas fa-shield-alt"></i> MAKE IT INSPIRED</h1>
@@ -100,22 +101,26 @@
     </div>
     <!-- Make It Anything-->
     <div id="motivation"
-      class="row bg-white d-flex justify-content-between alight-items-center text-light text-center p-5">
-      <div class="col-12 col-md-3 bg-dark">
-        <p><b>"This is a quote about my idea and how excited I was to share. Testimonial from someone about how LEGO
-            inspired them blah blah blah</b></p>
-        <p>LEGO</p>
-        <p>Make It Creative | Make it Inspired | Make it Anything</p>
-      </div>
-      <div class="col-12 col-md-3 bg-dark tall">
-        <h1>THIS SHOULD BE SOME ICONS</h1>
+      class="row bg-light d-flex justify-content-between alight-items-center text-light text-center p-5 text-shadow quote-text">
+      <div class="col-12 col-md-3 order-md-2 bg-dark px-5 my-3">
+        <div>
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        </div>
         <p><b>"This is a quote about my idea and how excited I
             was to share. Testimonial from someone about how LEGO
             inspired them blah blah blah</b></p>
         <p>LEGO</p>
         <p>Make It Creative | Make it Inspired | Make it Anything</p>
       </div>
-      <div class="col-12 col-md-3 bg-dark">
+      <div class="col-12 col-md-3 order-md-1 bg-dark py-5 my-3">
+        <p><b>"This is a quote about my idea and how excited I was to share. Testimonial from someone about how LEGO
+            inspired them blah blah blah</b></p>
+        <p>LEGO</p>
+        <p>Make It Creative | Make it Inspired | Make it Anything</p>
+      </div>
+      <div class="col-12 col-md-3 order-md-3 bg-dark py-5 my-3">
         <p><b>"This is a quote about my idea and how excited I was to share. Testimonial from someone about how LEGO
             inspired them blah blah blah</b></p>
         <p>LEGO</p>
@@ -124,18 +129,16 @@
     </div>
     <!-- Quote -->
     <div class="row bg-warning text-center">
-      <div class="col-12">
+      <div class="col-12 my-3 p-2">
         <h1>Make It Creative | Make it Inspired | Make it Anything</h1>
         <p>Some other text about how great LEGO is and how you can do anything with it and its for everyone.</p>
       </div>
     </div>
   </main>
-  <footer class="container-fluid d-flex justify-content-center p-1 short">
-    <p class="align-self-center">
-      <i class="fa fa-rocket" aria-hidden="true"></i>
-      <i class="fa fa-money" aria-hidden="true"></i>
-      <i class="fa fa-rocket" aria-hidden="true"></i>
-    </p>
+  <footer class="container-fluid d-flex justify-content-center align-items-center short">
+    <div class="row">
+
+    </div>
   </footer>
 </body>
 
