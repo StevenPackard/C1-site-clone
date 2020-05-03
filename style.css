@@ -24,10 +24,10 @@ html {
   height: 75px;
 }
 .tall{
-  min-height: 300px;
+  min-height: 350px;
 }
 .short{
-  max-height: 250px;
+  max-height: 300px;
 }
 
 .no-border{
