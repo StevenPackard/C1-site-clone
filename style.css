@@ -1,13 +1,16 @@
 body{
   font-family: 'Roboto Mono', monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .quote-text{
   font-family: 'Quicksand', sans-serif;
 }
 
 .background-image{
-  background-image: url(Lego-Green.jpg);
+  background-image: url(Lego-Red.jpg);
   background-size: cover;
   background-position: top;
 }
@@ -17,11 +20,14 @@ body{
   text-shadow: 2px 2px 4px #000000;
 }
 
-.short{
-  height: 75px
+.logo-short{
+  height: 75px;
 }
 .tall{
-  height: 400px;
+  min-height: 300px;
+}
+.short{
+  max-height: 250px;
 }
 
 .no-border{
@@ -44,8 +50,10 @@ body{
   background-color: black;
 }
 
-.push-down{
-  margin-top: 100px;
+
+
+.shrink{
+  height:200px
 }
 
 
@@ -53,6 +61,19 @@ body{
   .mobile-hide{
     display:none
   }
+  .push-apart{
+    margin-bottom: 30px;
+  }
 }
 
+@media only screen and (min-width: 768px){
+  .spill{
+    height: 250px;
+    width: 24rem;
+  }
+  .push-down{
+    margin-top: 50px;
+  }
+  
+}
 
