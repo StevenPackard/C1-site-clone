@@ -4,6 +4,9 @@ body{
 html {
   scroll-behavior: smooth;
 }
+footer{
+  height:50px;
+}
 
 .quote-text{
   font-family: 'Quicksand', sans-serif;
@@ -30,6 +33,7 @@ html {
   max-height: 300px;
 }
 
+
 .no-border{
   border: none;
 }
@@ -47,7 +51,7 @@ html {
 .thin-line{
   height: 15px;
   width: 100%;
-  background-color: black;
+  background-color: #343A40;
 }
 
 
